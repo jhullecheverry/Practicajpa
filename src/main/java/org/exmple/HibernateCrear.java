@@ -1,6 +1,8 @@
+package org.exmple;
 
 import jakarta.persistence.EntityManager;
 import org.example.utilidades.JpaUtil;
+import org.exmple.Clientes;
 
 import javax.swing.*;
 
@@ -19,7 +21,7 @@ public class HibernateCrear {
             c.setFormaPago(pago);
             em.persist(c);
             em.getTransaction().commit();
-            System.out.println("el id del cliente registrado es " +
+            System.out.println("el id del cliente es " +
                     c.getId());
             c = em.find(Clientes.class, c.getId());
             System.out.println(c);

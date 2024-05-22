@@ -1,6 +1,8 @@
+package org.exmple;
+
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.Query;
-
+import org.exmple.Clientes;
 import java.util.Scanner;
 
 public class HibernateSingleResultWhere {

@@ -1,3 +1,5 @@
+package org.exmple;
+
 import jakarta.persistence.*;
 @Entity
 @Table(name="clientes")

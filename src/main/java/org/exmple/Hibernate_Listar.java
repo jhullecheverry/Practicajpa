@@ -1,5 +1,8 @@
+package org.exmple;
+
 import jakarta.persistence.EntityManager;
 import org.example.utilidades.JpaUtil;
+import org.exmple.Clientes;
 
 import java.util.List;
 
